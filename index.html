@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+    src="https://kit.fontawesome.com/2e8d67deac.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="logo">PINTU <span>SHARMA</span></div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#third-sec">Portfolio</a></li>
+            <li><a href="#contact-container">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            <li><img src="elements/moon.png" class="dark-icon" alt="" onclick="darkMode()"></li>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+      </header>
+      <div class="first-section">
+        <div class="left">
+          <h1 class="heads">Hi!</h1>
+          <h1 class="heads head-text"><span class="typing-text"></span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iste
+            molestias iure beatae exercitationem reiciendis rem 
+          </p>
+        </div>
+        <div class="right"><img src="elements/pintu-sharma.png" alt="" /></div>
+        <!-- <div class="right"><img src="personal-removebg-preview.png" alt="" /></div> -->
+      </div>
+    </main>
+
+    <!--------------------------- About section ------------------------------------>
+    <div class="second-section" id="about-section">
+      <div class="second-left">
+        <img src="elements/pintu.png" alt="" />
+      </div>
+      <div class="second-right">
+        <h2>About Me</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam earum
+          ducimus. Sed earum dolorum aliquam unde culpa assumenda esse non sit
+          facilis? Nam eligendi voluptates
+        </p>
+        <div class="about-menu-container">
+          <ul>
+            <li class="about active-section skills">Skills</li>
+            <li class="about experience">Experience</li>
+            <li class="about education">Education</li>
+          </ul>
+          <div class="tab-contents active-tab" id="skills">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo
+            quo, sapiente et minus iusto accusamus, molestias pariatur totam
+            ipsa quisquam adipisci odit. Distinctio 
+          </div>
+          <div class="tab-contents" id="experience">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+            nesciunt?
+          </div>
+          <div class="tab-contents" id="education">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
+            suscipit officia voluptatibus pariatur voluptate esse quas non
+            exercitationem quos excepturi?
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- third section--------------------------------------------------- -->
+     <div class="third" id="third-sec">
+       <div class="third-section">
+         <h1>MY SERVICES</h1>
+         <div class="cards">
+           <div class="card card1">
+             <div class="image-container"><i class="fa-solid fa-code"></i></div>
+             <h2>Web Development</h2>
+             <div class="text-container">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+               recusandae, dolorem aliquam quod quis dolore? Vero fuga animi
+               nostrum esse minus veniam ipsam et voluptates.
+              </div>
+              <button><i class="fa-solid fa-arrow-right"></i></i></button>
+            </div>
+            <div class="card card2">
+          <div class="image-container"><i class="fa-brands fa-html5"></i></div>
+          <h2>Web Development</h2>
+          <div class="text-container">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            recusandae, dolorem aliquam quod quis dolore? Vero fuga animi
+            nostrum esse minus veniam ipsam et voluptates.
+          </div>
+          <button><i class="fa-solid fa-arrow-right"></i></i></button>
+        </div>
+        <div class="card card3">
+          <div class="image-container"><i class="fa-brands fa-python"></i></div>
+          <h2>Web Development</h2>
+          <div class="text-container">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+            recusandae, dolorem aliquam quod quis dolore? Vero fuga animi
+            nostrum esse minus veniam ipsam et voluptates.
+          </div>
+          <button><i class="fa-solid fa-arrow-right"></i></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!-- -----------------fourth-section ---------->
+      <div class="fourth">
+      <div class="fourth-section">
+        <h1>MY WORK</h1>
+        <div class="fourth-section-cards">
+          <div class="work-card">
+            <img src="elements/netflix.png" alt="" />
+            <div class="card-text">
+              <h3>Netflix clone</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+                sunt sed officiis iste quo, earum sapiente! Id odit facilis
+                debitis!
+              </p>
+              <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="elements/tourism.png" alt="" />
+            <div class="card-text">
+              <h3>Tourist Website</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+                sunt sed officiis iste quo, earum sapiente! Id odit facilis
+                debitis!
+              </p>
+              <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work-card">
+            <img src="elements/portfolio.png" alt="" />
+            <div class="card-text">
+              <h3>personal Portfolio</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+                sunt sed officiis iste quo, earum sapiente! Id odit facilis
+                debitis!
+              </p>
+              <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- <button id="see-more">See more</button> -->
+      </div>
+    </div>
+    <!-- contact section -->
+     <div id="contact-container">
+
+       <div class="contact">
+         <div class="contact-left">
+           <h1>Contact Me</h1>
+           <div class="gmail"><i class="fa-solid fa-envelope" onclick="sendEmail()"></i>ipintu4143@gmail.com</div>
+           <div class="number"><a href="tel:+917667410694"><i class="fa-solid fa-square-phone"></i></a>7667410694</div>
+           <div class="github"><a href="https://github.com/intensity4143" target="_blank"><i class="fa-brands fa-square-github"></i></a>Github</div>
+           <div class="buttons">
+            <a href="https://www.instagram.com/its_me_unreal?igsh=ejRid2dtbWZ1Y3Vp" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/pintu-sharma-2b6a33290/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/PintuSharma4143" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+          </div>
+           <div class="cv-button"><a href="elements/CV.pdf" download="">Download CV</a></div>
+          </div>
+      <div class="contact-right">
+        <form action="get">
+          <input type="text" placeholder="Your Name">
+          <input type="email" placeholder="Your Email">
+          <textarea name="text" id="text" rows="5" placeholder="Your message"></textarea>  
+        </form>
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright © personal Portfolio &nbsp;
+      <i class="fa-solid fa-heart"></i>
+    </p>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
