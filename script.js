@@ -60,7 +60,7 @@ const words = ["developer", "designer", "creator", "coder"]; // Words to change
 const typingSpeed = 100; // Speed of typing
 const deletingSpeed = 50; // Speed of deleting
 const delayBetweenWords = 1500; // Delay after typing a word
-const delayAfterFullSentence = 2000; // Delay after full sentence is typed
+const delayAfterFullSentence = 1000; // Delay after full sentence is typed
 
 let wordIndex = 0;
 let charIndex = 0;
