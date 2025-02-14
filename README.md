@@ -1,5 +1,6 @@
 # personal-portfolio
 A personal portfolio website built using HTML, CSS, and JavaScript. Showcases skills, projects, and experience with a responsive design and interactive UI elements.
+checkout here :- https://intensity4143.github.io/personal-portfolio/
 
 ![Image](https://github.com/user-attachments/assets/3e09d7a5-63a9-4b72-a208-be7ada7fe780)
 
